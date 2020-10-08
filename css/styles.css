@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.btn {
+  cursor: pointer;
+  margin: 40px;
+  height: 80px;
+  width: 160px;
+  outline: none;
+  border-radius: 10px;
+  border: solid 2px;
+  font-size: 30px;
+}
+.btn-notactive {
+  color: rgb(235, 11, 11);
+}
